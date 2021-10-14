@@ -1,0 +1,384 @@
+@import url('https://fonts.googleapis.com/css2?family=Style+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+*{
+    box-sizing: border-box;
+    outline: none;
+    
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    scroll-behavior: smooth;
+}
+
+
+/* Header */
+
+.header_cnt{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: transparent;
+    position: fixed;
+    top: 0;
+    z-index: 9999;
+    left: 0;
+}
+
+.header_logo{
+    padding: 40px;
+    display: block;
+    font-family: 'Style Script', cursive;
+}
+.header_logo a {
+    text-decoration: none;
+    font-size: 40px;
+    color: #fff;
+}
+
+
+
+.header_links a{
+    padding: 30px;
+    text-decoration: none;
+    color: #ffff;
+    font-weight: bold;
+}
+
+.show_header{
+    background:  #7E451F;
+    transition: .5s ease-in-out;
+}
+
+/* Main Header Cnt */
+
+.main_cnt{
+    width: 100%;
+    height: 800px ;
+    background-image: url();
+    background: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, .4)), url(../Image/lib.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    
+}
+
+.main_cnt h1{
+    font-family: 'Style Script', cursive;
+    letter-spacing: 1px;
+    font-size: 40px;
+}
+
+.main_cnt a{
+    display: flex;
+    color: #fff;
+    text-decoration: none;
+    padding:  15px 60px;
+    border-radius: 20px;
+    background-color: #7E451F;
+}
+
+.main_cnt a:hover{
+    background-color: #684026;
+}
+
+
+/* Benefits of reading */
+
+.benifits_cnt{
+    padding: 40px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.benf_read{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 700px;
+    height: auto;
+    border: .5px solid #ccc;
+    display: flex;
+    
+}
+
+/* Type of books */
+
+.type_books_cnt{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    padding: 50px 0px;
+    background: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, .4)), url(../Image/Typebooks/wooden.jpg);
+    background-size: cover;
+    gap: 40px;
+    background-attachment: fixed;
+    
+}
+
+.books_type{
+    color: #fff;
+    border: 2px solid #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 300px;
+    background: #814213;
+    
+}
+.books_type:hover{
+    transition: ease-in-out;
+    
+}
+
+/* Titles of Objects */
+
+            
+.title_cnt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    padding: 10px;
+}
+
+.title_cnt h1{
+    padding: 10px;
+    border-bottom: 5px solid black;
+}
+
+/* Top books you can see */
+
+.top_books_cnt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    gap: 60px;
+    flex-wrap: wrap;
+}
+
+.top_books{
+    display: flex;
+    width: 300px;
+    height: 400px;
+}
+
+.top_books:hover{
+    transform: scale(1.05);
+    transition: all .5s ease-in-out;
+}
+
+.top_books img{
+    width: 300px;
+    height: 400px;
+}
+
+/* Need a book form */
+
+.need_book_cnt{
+    display: flex;
+    width: 100%;
+    height: auto;
+    flex-wrap: wrap;
+    padding: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+.need_book_frm{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: auto;
+    padding: 50px;
+    background-color: #fff;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    border: .5px solid #ccc;
+}
+
+.need_book_frm input{
+    width: 300px;
+    padding: 0 30px;
+    border: none;
+    outline: none;
+    border-bottom: .5px solid #ccc;
+    height: 30px;
+}
+
+.need_book_frm select{
+    width: 300px;
+    border: none;
+    border-bottom: .5px solid #ccc;
+    padding: 15px 30px;
+    color: gray;
+}
+
+.need_book_frm textarea{
+    width: 300px;
+    padding: 20px;
+    border: none;
+    border-bottom: .5px solid #ccc;
+    resize: none;
+}
+
+.need_book_frm a{
+    text-decoration: none;
+    padding: 20px 40px;
+    border-radius: 20px;
+    background-color: #a76132;
+    color: #fff;
+}
+
+.need_book_frm a:hover{
+    background-color: #7E451F;
+}
+
+
+/* Books type */
+.book_price_cnt{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 50px;
+    padding: 30px 20px;
+    height: auto;
+
+}
+
+.book_price {
+    display: flex;
+    justify-content: center;
+    padding: 30px 20px;
+    align-items: center;
+    flex-direction: column;
+    width: 400px;
+    height: auto;
+    border: .5px solid #ccc;
+}
+
+.book_price a{
+    display: flex;
+    text-decoration: none;
+    color: #fff;
+    padding: 20px 40px;
+    background: #a76132;
+    border-radius: 10px;
+}
+
+
+/* Footer container */
+.footer_cnt{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+    background-color: #a76132;
+}
+
+.footer_up{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.ft_up{
+    display: flex;
+    padding: 40px 0px;
+    flex-direction: column;
+    gap: 40px;
+    flex-wrap: wrap;
+    width: 350px;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    
+}
+.ft_up h1{
+    font-family: 'Style Script', cursive;
+    font-size: 30px;
+}
+.ft_up a{
+    color: #fff;
+    text-decoration: none;
+}
+
+
+.footer_down{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 10px 0px;
+    height: auto;
+    color: #fff;
+}
+
+
+
+@media (max-width: 700px){
+    /* Header */
+        .header_links{
+            display: none;
+        }
+    /* Main Header */
+        .main_cnt h1{
+            font-size: 25px;
+        }
+        .main_cnt a{
+            padding: 20px 30px;
+        }
+    /* Benefits of reading */
+        .benf_read p{
+            font-size: 12px;
+        }
+    /* Order Books  */
+        .need_book_frm{
+            width: 300px;
+            padding: 20px 7px;
+        }
+        .need_book_frm input{
+            width: 200px;
+            padding: 0 30px;
+            border: none;
+            outline: none;
+            border-bottom: .5px solid #ccc;
+            height: 30px;
+        }
+        .need_book_frm select{
+            width: 200px;
+            padding: 20px 0px;
+        }
+        .need_book_frm textarea{
+            width: 200px;
+            padding: 30px 0px;
+        }
+}
